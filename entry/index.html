@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>QALab PoliInfo2申し込みフォーム</title>
+  </head>
+  <body>
+	  <div class="container" style="margin-top:30px;">
+          
+	  <div class="row">
+    <form class="form-signin" action="http://poliinfo2.github.io/entry/lib/sendmail.php" method="POST">
+        <div class="col-12">
+			<p class=""><a href="http://poliinfo2.github.io/">QALab PoliInfo2ホームに戻る</a></p>
+            <h1 style="margin-top: 10px;">東京都議会会議録データセットVer2のダウンロードについて</h1>
+            <p>私たちは，地方議会会議録に関する研究促進に向けて（NTCIR15 QA Lab-PoliInfo-2 で利用する）データセットを提供します．本サイトでは，データセットの利用規約を確認してもらいます．本サイトに記載されている内容を確認してから「同意します」を選択してください．また，チーム名，参加者名，メールアドレスの入力をお願いします．承諾後に，登録して頂いたメールアドレス宛に，「東京都議会会議録データセットVer2」に関する情報を送ります．<br><br>
+<br>
+<br>
+<br>
+</p>
+        </div>
+				<style>
+					ol label{
+						font-weight: bold;
+						margin-bottom:15px;
+						margin-top:15px;
+						border-bottom:1px dotted #DDD;
+					}
+				</style>
+		</div>
+	  <div class="row">
+        <div class="col-12">
+            <h2 class="h3 mb-3 font-weight-normal">NTCIR 15 QA Lab-PoliInfo-2参加条件</h2>
+				本サイトに記載されている参加条件に同意してから「申し込みする」をクリックしてください。
+        </div>
+        <div class="col-12" style="margin-top: 40px;background:#FFEEEE;padding:30px;">
+                <ol style="padding:10px;">
+					<li><label><input class="chk" type="checkbox" name="chk" >上記の参加条件・利用規約に同意し、参加を希望します。QA Lab-PoliInfo-2 の「参加登録」を終えている</label>
+	<br><a href="http://ntcir.nii.ac.jp/NTCIR15Regist/">http://ntcir.nii.ac.jp/NTCIR15Regist/</a></li>
+					<li><label>　<s>NTCIR事務局と「覚書」を取り交わしている</s> (NTCIR-15ではTask Organizersから配布するため、NIIとの覚書取り交わしは不要となりました)</label></li>
+					<li><label><input class="chk" type="checkbox" name="chk" >データをQA Lab-PoliInfo-2のタスク（dry runおよびformal run）遂行のために利用します。</label> </li>
+					<li><label><input class="chk" type="checkbox" name="chk" >データの一部または全部を第三者がアクセス可能な場所に公開しません。</label></li>
+					<li><label><input class="chk" type="checkbox" name="chk" >データの一部または全部を再配布しません。</label></li>
+					<li><label><input class="chk" type="checkbox" name="chk" >データは学術研究にのみ使用し、商用利用はしません。</label></li>
+					<li><label><input class="chk" type="checkbox" name="chk" >データの著作権者または配布者から、データの一部または全部の削除が要請された場合、これに応じ、すべての計算機およびメディアから該当するデータを速やかに消去し、消去した旨を連絡します。 </label></li>
+					<li><label><input class="chk" type="checkbox" name="chk" >データを用いて行った学術研究の成果を公表する場合、QA Lab-PoliInfo-2において配布されたデータを用いたことを明示します。</label><br>
+	参考文献 : Yasutomo Kimura, Keiichi Takamaru, Takuma Tanaka, Akio Kobayashi, Hiroki Sakaji, Yuzu Uchida, Hokuto Ototake and Shigeru Masuyama. Creating Japanese Political Corpus from Local Assembly Minutes of 47 Prefectures. Proceedings of the 12th Workshop on Asian Language Resources (ALR12), The COLING 2016, pp.78-85, 2016.</li>
+					<li><label><input class="chk" type="checkbox" name="chk" >研究成果の公表において、会議録本文の引用は必要最低限に留め、会議録の内容に関する論評は行いません。</label></li>
+					<li><label><input class="chk" type="checkbox" name="chk" >データを利用したことにより生じた不利益について、配布者は一切の責任を負いません。</label></li>
+					<li><label><input class="chk" type="checkbox" name="chk" >本規約に定めのない事項が生じた場合は、互いに誠意を持って協議し、問題を解決します。</label></li>
+                </ol>
+        </div>
+        <div class="col-12" style="margin-top: 40px;background:#FAFAFA;padding:30px;">
+            <h2 class="h3 mb-3 font-weight-normal">申し込みフォーム</h2>
+            <p>申し込みされる方のメールアドレスを入力してください。詳しい申し込みに関する情報をメールでお送りいたします。</p>
+            <div class="row">
+				<div class="col-12 col-sm-12">
+			  <label for="teamName" ><b>チーム名 <span style="color:red;">※必須</span><br/>(NTCIRで登録した5文字以内の英数字のチーム名)</b></label>
+			  <input type="text" id="teamName" pattern="^[0-9A-Za-z]+$" name="teamname" class="form-control" placeholder="チーム名" required autofocus><br>
+	</div>
+				<div class="col-12 col-sm-12">
+				  <label for="representativesNname" ><b>参加者名（代表者名）<span style="color:red;">※必須</span></b></label>
+				  <input type="text" id="representativesNname" name="representativesNname" class="form-control" placeholder="代表者名" required autofocus>
+					<label>
+				</div>
+				<div class="col-12 col-sm-12">
+				  <label for="email" ><b>参加者のメールアドレス<span style="color:red;">※必須</span></b></label>
+				  <input type="email" id="email" name="email" class="form-control" placeholder="メールアドレス" required autofocus>
+					<label>
+				</div>
+				<div class="col-12 col-sm-12">
+				  <label for="" ><b>参加するタスク<span style="color:red;">※必須</span></b></label><br>
+
+				  <input type="checkbox" id="task1" name="task1" class="" value="entity"  >
+					  <label for="task1">Entity linking task</label>　　
+				  <input type="checkbox" id="task2" name="task2" class="" value="dialog" >
+					  <label for="task2">Dialog summarization task</label>　　
+				  <input type="checkbox" id="task3" name="task3" class="" value="stance"  >
+					  <label for="task3">Stance classification task</label>
+				　　<input type="checkbox" id="task4" name="task4" class="" value="topic"  >
+					  <label for="task4">Topic detection task</label>
+					
+				</div>
+				<div class="col-12 col-sm-12">
+				  <label for="systemExplain" ><b>システムの説明</b></label>
+				  <textarea name="systemExplain" class="form-control"></textarea>
+					<label>
+				</div>
+			</div>
+                <br>
+            <button class="btn btn-lg btn-danger btn-block" id="btn_entry" disabled type="submit" style="margin-top:30px;">申し込みする</button>
+            
+            <p></p>
+        </div>
+           <input type="hidden" name="id" value="mihe83adw1loape2" />
+          </form>
+			<br>
+<br>
+
+			<p class="text-center"><a href="http://poliinfo2.github.io/">QALab PoliInfo2ホームに戻る</a></p>
+</div>
+</div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script type="text/javascript">
+
+		$('.chk').change(function() {
+			var sizs = $("input[type=checkbox]:checked").length;
+			if($("input[type=checkbox]:checked").length >= 10){
+				$("#btn_entry").prop("disabled", false);
+			}
+			else{
+				$("#btn_entry").prop("disabled", true);
+			}
+		});
+
+		$("#btn_entry").on("click",function(){
+			var sender		= $("#teamName").val();
+			var email		= $("#email").val();
+			var representativesNname	= $("#representativesNname").val();
+
+			if(sender == "" || email == "" || representativesNname == ""){
+				alert("項目をすべて記入してください。");
+				return false;
+			}
+			if(!email.match(/^([a-zA-Z0-9])+([a-zA-Z0-9\._-])*@([a-zA-Z0-9_-])+([a-zA-Z0-9\._-]+)+$/)){
+				alert("正しくメールアドレスを入れてください。");
+				return false;
+			}
+			if(!confirm('登録内容は正しいですか？申し込みを行います。')){
+				/* キャンセルの時の処理 */
+				return false;
+			}
+		});
+	</script>
+  </body>
+</html>

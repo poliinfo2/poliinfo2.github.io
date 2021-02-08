@@ -1,0 +1,115 @@
+/* Scss Document */
+body {
+  background: #F7F9FC; }
+
+h2 {
+  margin: 2rem 0; }
+
+h3 {
+  margin: 2rem 0 1rem 0; }
+
+#sub_page h1 {
+  margin: 3rem 0px; }
+
+dd, dt {
+  border-bottom: 1px dotted #CCC;
+  margin: 0px;
+  margin-bottom: 10px;
+  padding-bottom: 10px; }
+
+.imgbox {
+  text-align: center; }
+
+.imgbox img {
+  max-height: 260px; }
+
+.name {
+  font-size: 1.5rem; }
+
+.position {
+  font-size: 0.8rem;
+  color: #777; }
+
+.bio {
+  font-size: 1rem; }
+
+footer,
+.navbar {
+  background: #333;
+  color: #FFF; }
+
+footer,
+.navbar a {
+  color: #FFF !important; }
+
+#sponsored {
+  margin-top: 3rem;
+  margin-bottom: 0px !important;
+  padding: 40px 0 50px 0; }
+
+#sponsored,
+.bg_main {
+  color: #FFF;
+  background: url("http://poliinfo2.github.io/control-panel/wp-content/themes/poliinfo2/common/images/bg_main.jpg"); }
+
+#toppage #main-header {
+  padding: 6rem 0; }
+
+#toppage #main-header p {
+  margin: 0 auto;
+  width: 60%; }
+
+#toppage .subwrap {
+  margin-top: 1rem; }
+
+#toppage .subwrap .tasks-child {
+  margin-top: 1rem; }
+
+#toppage .subwrap .tasks-child .table-responsive {
+  max-height: 300px; }
+
+#sponsored {
+  margin-bottom: 2rem; }
+
+#sponsored h2 {
+  margin-bottom: 2rem; }
+
+.cap-date {
+  white-space: nowrap;
+  width: 30%; }
+
+.footermenu {
+  padding: 3rem 0; }
+
+.footermenu ul {
+  margin: 1rem 0 0;
+  padding: 0;
+  list-style: none; }
+
+.footermenu ul li {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.entry-email {
+  padding: 3rem 0; }
+
+.imgbox img {
+  width: 100%;
+  height: auto; }
+
+.imgbox {
+  margin-top: 50px; }
+
+.theads {
+  background: #DDD; }
+
+#task_covid19 {
+  margin-top: 30px;
+  border: 1px solid #EEE;
+  padding: 20px;
+  background: #EFEFEF; }
+
+#task_covid19 h3 {
+  margin: 0px;
+  margin-bottom: 10px; }

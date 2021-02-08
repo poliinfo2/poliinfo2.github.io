@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>リダイレクト中...</title>
+		<meta http-equiv="refresh" content="0;url=http://poliinfo2.github.io/blog/common/images/noimage_choi.png">
+	</head>
+	<body>
+		<script type="text/javascript">
+			window.location = "http://poliinfo2.github.io/blog/common/images/noimage_choi.png";
+		</script>
+
+		<p><a href="http://poliinfo2.github.io/blog/common/images/noimage_choi.png">http://poliinfo2.github.io/blog/common/images/noimage_choi.png</a> にリダイレクト中</p>
+	</body>
+</html>

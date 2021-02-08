@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	報告：第二回説明会 へのコメント	</title>
+	<atom:link href="http://poliinfo2.github.io/2019/12/11/%E5%A0%B1%E5%91%8A%EF%BC%9A%E7%AC%AC%E4%BA%8C%E5%9B%9E%E8%AA%AC%E6%98%8E%E4%BC%9A/feed/" rel="self" type="application/rss+xml" />
+	<link>http://poliinfo2.github.io/2019/12/11/%e5%a0%b1%e5%91%8a%ef%bc%9a%e7%ac%ac%e4%ba%8c%e5%9b%9e%e8%aa%ac%e6%98%8e%e4%bc%9a/</link>
+	<description></description>
+	<lastBuildDate>Sat, 15 Feb 2020 08:16:48 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.6.1</generator>
+</channel>
+</rss>
