@@ -50,7 +50,7 @@ footer,
 #sponsored,
 .bg_main {
   color: #FFF;
-  background: url("http://poliinfo2.github.io/control-panel/wp-content/themes/poliinfo2/common/images/bg_main.jpg"); }
+  background: url("../images/bg_main.jpg"); }
 
 #toppage #main-header {
   padding: 6rem 0; }
